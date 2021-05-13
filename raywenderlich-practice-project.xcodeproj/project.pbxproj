@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8532E50E264B02DB009C9F63 /* ListViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8532E50D264B02DB009C9F63 /* ListViewHeaderView.swift */; };
 		854DB23826421DFC0011966F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB23726421DFC0011966F /* AppDelegate.swift */; };
 		854DB23A26421DFC0011966F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB23926421DFC0011966F /* SceneDelegate.swift */; };
-		854DB23C26421DFC0011966F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB23B26421DFC0011966F /* ViewController.swift */; };
-		854DB23F26421DFC0011966F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DB23D26421DFC0011966F /* Main.storyboard */; };
 		854DB24126421DFD0011966F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854DB24026421DFD0011966F /* Assets.xcassets */; };
 		854DB24426421DFD0011966F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DB24226421DFD0011966F /* LaunchScreen.storyboard */; };
 		854DB24F26421DFD0011966F /* raywenderlich_practice_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB24E26421DFD0011966F /* raywenderlich_practice_projectTests.swift */; };
 		854DB25A26421DFD0011966F /* raywenderlich_practice_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB25926421DFD0011966F /* raywenderlich_practice_projectUITests.swift */; };
+		854DB26F26421F320011966F /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB26E26421F320011966F /* RootTabViewController.swift */; };
+		854DB27A264221680011966F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB279264221680011966F /* ListViewController.swift */; };
+		854DB27F264221800011966F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB27E264221800011966F /* DetailViewController.swift */; };
+		854DB284264221970011966F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB283264221970011966F /* DownloadsViewController.swift */; };
+		854DB289264221BC0011966F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB288264221BC0011966F /* SettingsViewController.swift */; };
+		854DB28E264226760011966F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB28D264226760011966F /* NetworkManager.swift */; };
+		854DB295264227250011966F /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB294264227250011966F /* ListCollectionViewCell.swift */; };
+		854DB2A726422E0B0011966F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB2A626422E0B0011966F /* Item.swift */; };
+		854DB2AD2643108F0011966F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB2AC2643108F0011966F /* ListViewModel.swift */; };
+		854DB2B5264326940011966F /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB2B4264326940011966F /* Attributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8532E50D264B02DB009C9F63 /* ListViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewHeaderView.swift; sourceTree = "<group>"; };
 		854DB23426421DFC0011966F /* raywenderlich-practice-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "raywenderlich-practice-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854DB23726421DFC0011966F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854DB23926421DFC0011966F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		854DB23B26421DFC0011966F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		854DB23E26421DFC0011966F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854DB24026421DFD0011966F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854DB24326421DFD0011966F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854DB24526421DFD0011966F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		854DB25526421DFD0011966F /* raywenderlich-practice-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "raywenderlich-practice-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854DB25926421DFD0011966F /* raywenderlich_practice_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raywenderlich_practice_projectUITests.swift; sourceTree = "<group>"; };
 		854DB25B26421DFD0011966F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854DB26E26421F320011966F /* RootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
+		854DB279264221680011966F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		854DB27E264221800011966F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		854DB283264221970011966F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		854DB288264221BC0011966F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		854DB28D264226760011966F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		854DB294264227250011966F /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		854DB2A626422E0B0011966F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		854DB2AC2643108F0011966F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		854DB2B4264326940011966F /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,13 @@
 		854DB23626421DFC0011966F /* raywenderlich-practice-project */ = {
 			isa = PBXGroup;
 			children = (
+				854DB2AB264310530011966F /* ViewModels */,
+				854DB293264226FC0011966F /* Models */,
+				854DB292264226F80011966F /* Views */,
+				854DB26D26421F040011966F /* ViewControllers */,
 				854DB23726421DFC0011966F /* AppDelegate.swift */,
+				854DB28D264226760011966F /* NetworkManager.swift */,
 				854DB23926421DFC0011966F /* SceneDelegate.swift */,
-				854DB23B26421DFC0011966F /* ViewController.swift */,
-				854DB23D26421DFC0011966F /* Main.storyboard */,
 				854DB24026421DFD0011966F /* Assets.xcassets */,
 				854DB24226421DFD0011966F /* LaunchScreen.storyboard */,
 				854DB24526421DFD0011966F /* Info.plist */,
@@ -126,6 +147,44 @@
 				854DB25B26421DFD0011966F /* Info.plist */,
 			);
 			path = "raywenderlich-practice-projectUITests";
+			sourceTree = "<group>";
+		};
+		854DB26D26421F040011966F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				854DB26E26421F320011966F /* RootTabViewController.swift */,
+				854DB279264221680011966F /* ListViewController.swift */,
+				854DB27E264221800011966F /* DetailViewController.swift */,
+				854DB283264221970011966F /* DownloadsViewController.swift */,
+				854DB288264221BC0011966F /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		854DB292264226F80011966F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				854DB294264227250011966F /* ListCollectionViewCell.swift */,
+				8532E50D264B02DB009C9F63 /* ListViewHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		854DB293264226FC0011966F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				854DB2A626422E0B0011966F /* Item.swift */,
+				854DB2B4264326940011966F /* Attributes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		854DB2AB264310530011966F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				854DB2AC2643108F0011966F /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +292,6 @@
 			files = (
 				854DB24426421DFD0011966F /* LaunchScreen.storyboard in Resources */,
 				854DB24126421DFD0011966F /* Assets.xcassets in Resources */,
-				854DB23F26421DFC0011966F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854DB23C26421DFC0011966F /* ViewController.swift in Sources */,
+				854DB26F26421F320011966F /* RootTabViewController.swift in Sources */,
 				854DB23826421DFC0011966F /* AppDelegate.swift in Sources */,
+				854DB289264221BC0011966F /* SettingsViewController.swift in Sources */,
+				854DB284264221970011966F /* DownloadsViewController.swift in Sources */,
+				854DB2A726422E0B0011966F /* Item.swift in Sources */,
+				854DB2B5264326940011966F /* Attributes.swift in Sources */,
+				854DB28E264226760011966F /* NetworkManager.swift in Sources */,
+				854DB295264227250011966F /* ListCollectionViewCell.swift in Sources */,
+				854DB2AD2643108F0011966F /* ListViewModel.swift in Sources */,
+				854DB27F264221800011966F /* DetailViewController.swift in Sources */,
+				854DB27A264221680011966F /* ListViewController.swift in Sources */,
 				854DB23A26421DFC0011966F /* SceneDelegate.swift in Sources */,
+				8532E50E264B02DB009C9F63 /* ListViewHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		854DB23D26421DFC0011966F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				854DB23E26421DFC0011966F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		854DB24226421DFD0011966F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
